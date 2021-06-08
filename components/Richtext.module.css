@@ -1,0 +1,27 @@
+.container {
+  border: 1px solid black;
+  padding: 1em;
+}
+.dark {
+  color: #fff;
+  background: #333;
+}
+.container h2 {
+  font-size: 24px;
+  padding: 0 0 10px;
+}
+.container h3 {
+  font-size: 18px;
+  padding: 8px 0 10px;
+}
+.container p {
+  padding: 0 0 15px;
+}
+.container ul {
+  list-style-type: disc;
+  margin: 0 0 0 30px;
+  padding: 0 0 15px;
+}
+.container ul > * + *{
+  padding-top: 8px;
+}
