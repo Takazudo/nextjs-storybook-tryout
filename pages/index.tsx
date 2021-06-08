@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "modern-css-reset";
 import styles from "../styles/Home.module.css";
 import { Button } from "../components/Button";
 import { Richtext } from "../components/Richtext";
